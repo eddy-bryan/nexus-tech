@@ -21,6 +21,10 @@ header {
     background-color: #111315;
 }
 
+h1 {
+    font-family: 'Orbitron', sans-serif;    
+}
+
 main {
     background-color: #161a1d;
     /* Makes the main content take up all available space between the header and the footer */
