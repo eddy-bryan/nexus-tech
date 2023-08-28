@@ -19,10 +19,28 @@ body {
 
 header {
     background-color: #111315;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#navbar {
+    list-style-type: none;
+    display: flex;
+}
+
+.current-page {
+    color: #7c9aba;
 }
 
 h1 {
-    font-family: 'Orbitron', sans-serif;    
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
 }
 
 main {
@@ -34,3 +52,22 @@ main {
 footer {
     background-color: #404040;
 }
+
+/* Media query for tablets and larger */
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+    }
+}
+
+/* Media quary for small laptops and larger */
+@media screen and (min-width: 992px) {
+    header a:hover {
+        color: #404040;
+    }
+}
+
+/* Media query for desktop PCs and larger */
+@media screen and (min-width: 1200px) {}
