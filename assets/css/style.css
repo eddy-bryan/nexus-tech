@@ -1,8 +1,17 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Play:wght@400;700&display=swap');
+
 /* Asterisk wildcard selector to override HTML default styles */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -11,6 +20,8 @@ header {
 
 main {
     background-color: purple;
+    /* Makes the main content take up all available space between the header and the footer */
+    flex: 1 0 auto;
 }
 
 footer {
