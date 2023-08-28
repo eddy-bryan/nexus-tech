@@ -34,6 +34,10 @@ header a {
     display: flex;
 }
 
+#logo {
+    color: #7c9aba;
+}
+
 .current-page {
     color: #7c9aba;
 }
