@@ -81,6 +81,7 @@ hr {
 }
 
 #what-we-do {
+    scroll-margin: 53px;
     background-color: #000000;
     box-shadow: 2px 0 10px black;
 }
