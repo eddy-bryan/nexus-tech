@@ -64,32 +64,6 @@ h1 {
     text-align: right;
 }
 
-#about-us {
-    scroll-margin-top: 69px;
-    background-color: #161a1d;
-}
-
-#about-us-image {
-    background: url("../images/pexels-martin-lopez-2225617.jpg") no-repeat center center/cover;
-    width: 100vw;
-    height: 60vw;
-}
-
-#contact-us {
-    scroll-margin-top: 69px;
-    background-color: #0b0c0d;
-}
-
-#contact-us-image {
-    background: url("../images/pexels-martin-lopez-2225616.jpg") no-repeat center center/cover;
-    width: 100vw;
-    height: 60vw;
-}
-
-.container {
-    padding: 5%;
-}
-
 main {
     background-color: #161a1d;
     /* Makes the main content take up all available space between the header and the footer */
@@ -110,28 +84,6 @@ footer {
 
     nav {
         display: inherit;
-        align-items: center;
-    }
-
-    .container {
-        width: 40vh;
-        padding: 5%;
-    }
-
-    #about-us-image {
-        height: 30vw;
-        width: 50vw;
-    }
-
-    #contact-us-image {
-        height: 30vw;
-        width: 50vw;
-    }
-
-    #about-us,
-    #contact-us {
-        height: 60vw;
-        display: flex;
         align-items: center;
     }
 
