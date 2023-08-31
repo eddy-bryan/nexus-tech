@@ -100,8 +100,8 @@ hr {
 
 #what-we-do-image {
     background: url("../images/pexels-photo-6704953.jpeg") no-repeat center center/contain;
-    height: 66vw;
-    width: 100vw;
+    height: 60vw;
+    max-width: 100%;
 }
 
 footer {
