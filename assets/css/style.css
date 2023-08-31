@@ -48,7 +48,7 @@ h1 {
 }
 
 #hero {
-    background: url("../images/pexels-alena-darmel-7862509.jpg") no-repeat center center/cover;
+    background: url("../images/person-sat-at-computer.jpg") no-repeat center center/cover;
     width: 100%;
     height: 650px;
     position: relative;
@@ -66,7 +66,7 @@ h1 {
 }
 
 main {
-    background-color: #161a1d;
+    background-color: #404040;
     /* Makes the main content take up all available space between the header and the footer */
     flex: 1 0 auto;
 }
@@ -76,13 +76,23 @@ hr {
 }
 
 #about-us {
-    padding: 20px 35px;
     text-align: justify;
+    color: #eceae4;
+}
+
+#about-us-text {
+    padding: 20px 35px;
+}
+
+#about-us-image {
+    background: url("../images/person-plugging-in-cpu.jpeg") no-repeat center center/contain;
+    max-width: 90%;
+    height: 30vh;
 }
 
 #what-we-do {
     scroll-margin: 53px;
-    background-color: #000000;
+    background-color: black;
     box-shadow: 2px 0 10px black;
 }
 
@@ -99,13 +109,37 @@ hr {
 }
 
 #what-we-do-image {
-    background: url("../images/pexels-photo-6704953.jpeg") no-repeat center center/contain;
+    background: url("../images/gpu-landscape.jpeg") no-repeat center center/contain;
     height: 60vw;
     max-width: 100%;
 }
 
+/* Temporary styling for placeholder text */
+#contact-us-form {
+    padding: 20px 35px;
+}
+
+#contact-us-image {
+    background: url("../images/person-plugging-in-gpu.webp") no-repeat center center/contain;
+    max-width: 90%;
+    height: 30vh;
+}
+
 footer {
-    background-color: #404040;
+    background-color: #222222;
+}
+
+#social-media {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 20px;
+}
+
+#social-media li a {
+    text-decoration: none;
+    color: #eceae4;
+    font-size: 25px;
 }
 
 /* Media query for tablets and larger */
