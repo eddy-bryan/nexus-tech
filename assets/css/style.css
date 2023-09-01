@@ -75,6 +75,12 @@ hr {
     margin: 5px 0;
 }
 
+.section-title {
+    width: 100vw;
+    text-align: center;
+    padding: 25px 0 0 0;
+}
+
 .image-container {
     display: flex;
     align-items: center;
@@ -104,6 +110,9 @@ hr {
 }
 
 #what-we-do {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     scroll-margin: 53px;
     background-color: black;
     box-shadow: 2px 0 10px black;
@@ -239,7 +248,7 @@ footer {
         flex-grow: 1;
     }
 
-    #what-we-do {
+    #what-we-do-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -288,19 +297,22 @@ footer {
     }
 
     #what-we-do {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #what-we-do-container {
         flex-direction: column;
-        height: 900px;
+        height: 700px;
     }
 
     #personalised-solutions,
     #uncompromising-quality {
         text-align: left;
-        margin-left: auto;
     }
 
     #satisfaction-guarantee,
     #ongoing-support {
         text-align: right;
-        margin-right: auto;
     }
 }
