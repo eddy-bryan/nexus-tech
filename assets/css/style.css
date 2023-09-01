@@ -82,7 +82,7 @@ hr {
     border-radius: 5%;
 }
 
-.full-width {
+.attributes-image {
     width: 100%;
 }
 
@@ -214,6 +214,10 @@ footer {
         color: #404040;
     }
 
+    .attributes {
+        width: 40vw;
+    }
+
     #about-us {
         display: flex;
         justify-content: flex-start;
@@ -239,20 +243,19 @@ footer {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
     }
 
     #personalised-solutions,
     #satisfaction-guarantee {
-        text-align: left;
         padding: 5vw;
-        width: 40vw;
+        text-align: left;
     }
 
     #uncompromising-quality,
     #ongoing-support {
-        text-align: right;
         padding: 5vw;
-        width: 40vw;
+        text-align: right;
     }
 
     #what-we-do-image {
@@ -265,6 +268,16 @@ footer {
 
 /* Media query for desktop PCs and larger */
 @media screen and (min-width: 1200px) {
+    .attributes {
+        min-width: 350px;
+        width: 25vw;
+    }
+
+    .attributes-image {
+        width: fit-content;
+        height: 100%;
+    }
+
     #about-us-image {
         width: 40vw;
     }
@@ -272,5 +285,22 @@ footer {
     #about-us-text {
         text-align: left;
         margin: 150px 10vw 10vw 150px;
+    }
+
+    #what-we-do {
+        flex-direction: column;
+        height: 900px;
+    }
+
+    #personalised-solutions,
+    #uncompromising-quality {
+        text-align: left;
+        margin-left: auto;
+    }
+
+    #satisfaction-guarantee,
+    #ongoing-support {
+        text-align: right;
+        margin-right: auto;
     }
 }
