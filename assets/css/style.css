@@ -35,6 +35,26 @@ h1 {
     font-size: 1.17em;
 }
 
+hr {
+    margin: 5px 0;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    padding: 5px;
+    font-family: 'Play', sans-serif;
+    color: #eceae4;
+    border: 2px outset black;
+    border-radius: 7px;
+}
+
+button:active {
+    border-style: inset;
+}
+
 #navbar {
     list-style-type: none;
     display: flex;
@@ -71,10 +91,6 @@ main {
     flex: 1 0 auto;
 }
 
-hr {
-    margin: 5px 0;
-}
-
 .section-title {
     width: 100vw;
     text-align: center;
@@ -85,20 +101,30 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5%;
 }
 
 .attributes-image {
     width: 100%;
 }
 
-#about-us {
-    text-align: justify;
+.input-box {
+    background: #222222;
+    font-family: 'Play', sans-serif;
     color: #eceae4;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 2px inset #222222;
+    border-radius: 7px;
+    padding: 0 7px;
 }
 
-#about-us-text {
-    padding: 20px 35px;
+.radio-buttons {
+    padding-bottom: 10px;
+}
+
+#about-us {
+    text-align: justify;
 }
 
 #about-us-image {
@@ -106,7 +132,11 @@ hr {
     width: 80%;
     height: 30vh;
     margin-bottom: 20px;
-    border-radius: 5%;
+    border-radius: 15px;
+}
+
+#about-us-text {
+    padding: 20px 35px;
 }
 
 #what-we-do {
@@ -136,9 +166,9 @@ hr {
     width: 100%;
 }
 
-/* Temporary styling for placeholder text */
-#contact-us-form {
-    padding: 20px 35px;
+#contact-us {
+    scroll-margin: 53px;
+    text-align: justify;
 }
 
 #contact-us-image {
@@ -146,7 +176,32 @@ hr {
     width: 80%;
     height: 30vh;
     margin-top: 20px;
-    border-radius: 5%;
+    border-radius: 15px;
+}
+
+#contact-us-text {
+    padding: 20px 35px;
+}
+
+#contact-us-form {
+    padding: 0 35px 20px;
+}
+
+#message {
+    height: 150px;
+    padding: 7px;
+}
+
+#personal-label {
+    padding-left: 10px;
+}
+
+#submit-button {
+    background-color: #b11c46;
+}
+
+#clear-button {
+    background-color: #222222;
 }
 
 footer {
@@ -212,6 +267,16 @@ footer {
         margin: 0 25vw;
     }
 
+    #contact-us-image {
+        width: 60vw;
+        margin: 50px 20vw 0;
+    }
+
+    #contact-us-text {
+        text-align: center;
+        width: 80%;
+    }
+
     #navbar li {
         padding: 0 10px;
     }
@@ -272,6 +337,10 @@ footer {
         height: 500px;
         width: 500px;
         margin: auto;
+    }
+
+    .input-box:hover {
+        border: 2px solid #b11c46;
     }
 }
 

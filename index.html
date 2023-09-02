@@ -82,69 +82,156 @@
         </div>
       </section>
 
-    <section id="what-we-do">
+      <section id="what-we-do">
         <div class="section-title">
-            <h2>What We Do</h2>
+          <h2>What We Do</h2>
         </div>
 
         <div id="what-we-do-container">
-            <div id="personalised-solutions" class="attributes">
+          <div id="personalised-solutions" class="attributes">
             <h3><i class="fa-solid fa-user"></i> Personalised Solutions</h3>
             <hr />
             <p>
-                Discover customised PC solutions tailored to your unique needs. We
-                collaborate closely to ensure every component aligns perfectly with
-                your preferences, crafting a system that's distinctly yours.
+              Discover customised PC solutions tailored to your unique needs. We
+              collaborate closely to ensure every component aligns perfectly
+              with your preferences, crafting a system that's distinctly yours.
             </p>
-            </div>
+          </div>
 
-            <div id="uncompromising-quality" class="attributes">
-            <h3><i class="fa-solid fa-microchip"></i> Uncompromising Quality</h3>
+          <div id="uncompromising-quality" class="attributes">
+            <h3>
+              <i class="fa-solid fa-microchip"></i> Uncompromising Quality
+            </h3>
             <hr />
             <p>
-                Elevate your experience with premium components from trusted
-                suppliers. Our meticulous assembly and rigorous testing ensure your
-                PC embodies craftmanship that leaves no room for compromisee.
+              Elevate your experience with premium components from trusted
+              suppliers. Our meticulous assembly and rigorous testing ensure
+              your PC embodies craftmanship that leaves no room for compromisee.
             </p>
-            </div>
+          </div>
 
-            <div class="image-container attributes-image">
+          <div class="image-container attributes-image">
             <div id="what-we-do-image"></div>
-            </div>
+          </div>
 
-            <div id="satisfaction-guarantee" class="attributes">
+          <div id="satisfaction-guarantee" class="attributes">
             <h3><i class="fa-solid fa-check"></i> Satisfaction Guarantee</h3>
             <hr />
             <p>
-                Your satisfaction is our top priority. If you're not completely
-                satisfied, we're here to make it right. Our commitment extends
-                beyond the build - it's a promise of your happiness.
+              Your satisfaction is our top priority. If you're not completely
+              satisfied, we're here to make it right. Our commitment extends
+              beyond the build - it's a promise of your happiness.
             </p>
-            </div>
+          </div>
 
-            <div id="ongoing-support" class="attributes">
+          <div id="ongoing-support" class="attributes">
             <h3><i class="fa-solid fa-circle-question"></i> Ongoing Support</h3>
             <hr />
             <p>
-                Our partnership goes beyond delivery. We're your ongoing support
-                system, providing answers, assistance, and ensuring your PC's
-                optimal performance throughout your experience.
+              Our partnership goes beyond delivery. We're your ongoing support
+              system, providing answers, assistance, and ensuring your PC's
+              optimal performance throughout your experience.
             </p>
-            </div>
+          </div>
         </div>
-    </section>
+      </section>
 
       <section id="contact-us">
         <div class="image-container">
           <div id="contact-us-image"></div>
         </div>
 
-        <div id="contact-us-form">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
-          provident eligendi eveniet consequuntur et omnis, possimus quod eos
-          eaque totam facilis illum earum vitae animi natus fugit, cum
-          laboriosam dolorem.
+        <div id="contact-us-text">
+          <h2>Make an Enquiry!</h2>
+          <hr />
+          <p>
+            Ready to elevate your computing experience? Take the first step
+            towards owning your very own system tailored to your needs. Get in
+            touch with us today, and let's bring your vision to life.
+          </p>
         </div>
+
+        <form
+          id="contact-us-form"
+          method="POST"
+          action="https://formdump.codeinstitute.net"
+        >
+          <label for="forename">Forename</label>
+          <br />
+          <input
+            type="text"
+            maxlength="50"
+            name="forename"
+            id="forename"
+            class="input-box"
+            required
+          />
+
+          <br />
+
+          <label for="surname">Surname</label>
+          <br />
+          <input
+            type="text"
+            maxlength="50"
+            name="surname"
+            id="surname"
+            class="input-box"
+            required
+          />
+
+          <br />
+
+          <label for="email-address">Email Address</label>
+          <br />
+          <input
+            type="email"
+            maxlength="100"
+            name="email-address"
+            id="email-address"
+            class="input-box"
+            required
+          />
+
+          <br />
+
+          <label for="message">Message</label>
+          <br />
+          <textarea
+            name="message"
+            id="message"
+            class="input-box"
+            maxlength="500"
+            required
+          ></textarea>
+
+          <br />
+
+          <div class="radio-buttons">
+            <label for="business">Business</label>
+            <input
+              type="radio"
+              name="enquiry-type"
+              id="business"
+              value="business"
+              required
+              checked
+            />
+
+            <label for="personal" id="personal-label">Personal</label>
+            <input
+              type="radio"
+              name="enquiry-type"
+              id="personal"
+              value="personal"
+              required
+            />
+          </div>
+
+          <button type="submit" id="submit-button">Submit</button>
+
+          <button type="reset" id="clear-button">Clear Form</button>
+        </form>
       </section>
     </main>
 
