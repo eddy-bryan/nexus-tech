@@ -181,6 +181,7 @@ main {
 
 #contact-us-text {
     padding: 20px 35px;
+    margin: auto;
 }
 
 #contact-us-form {
@@ -260,11 +261,19 @@ footer {
         text-align: right;
     }
 
+    #what-we-do {
+        scroll-margin: 44px;
+    }
+
     #what-we-do-image {
         background: url(../images/gpu-landscape.jpeg) no-repeat -21vw center/cover;
         height: 50vw;
         width: 50vw;
         margin: 0 25vw;
+    }
+
+    #contact-us {
+        scroll-margin: 44px;
     }
 
     #contact-us-image {
@@ -339,6 +348,11 @@ footer {
         margin: auto;
     }
 
+    #contact-us-form {
+        width: 80%;
+        margin: auto;
+    }
+
     .input-box:hover {
         border: 2px solid #b11c46;
     }
@@ -373,6 +387,11 @@ footer {
     #what-we-do-container {
         flex-direction: column;
         height: 700px;
+    }
+
+    #contact-us {
+        width: 70%;
+        margin: auto;
     }
 
     #personalised-solutions,
