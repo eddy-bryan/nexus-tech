@@ -127,7 +127,6 @@ main {
 }
 
 #about-us-image {
-    background: url("../images/inside-pc-case-1.webp") no-repeat center center/cover;
     width: 100vw;
     height: 75vw;
 }
@@ -169,7 +168,6 @@ main {
 }
 
 #contact-us-image {
-    background: url("../images/inside-pc-case-2.webp") no-repeat center center/cover;
     width: 100vw;
     height: 75vw;
 }
