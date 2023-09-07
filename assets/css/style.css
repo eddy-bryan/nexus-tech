@@ -288,6 +288,10 @@ footer {
         color: #b11c46;
     }
 
+    button:hover {
+        color: #0f0f0f;
+    }
+
     .attributes {
         width: 40vw;
     }
@@ -355,6 +359,10 @@ footer {
 
     .input-box:hover {
         border: 2px solid #b11c46;
+    }
+
+    footer i:hover {
+        color: #b11c46;
     }
 }
 
