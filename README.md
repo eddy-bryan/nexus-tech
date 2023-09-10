@@ -59,6 +59,8 @@ Nexus Tech is a single page website for a business that builds custom computers 
 - The webpage was displaying wider than viewport width and thus the user had to scroll horizontally to view all content.
 - This problem was rectified by ensuring that the width of all child elements did not exceed the width of their parent.
 <!-- - What We Do section became jumbled at display widths of 1379px - 1414px and 2211px and above. -->
+<!-- - Poor performance rating was returned when running the website through lighthouse in devtools.
+- Images were all reduced in size to ensure that they were no bigger than necessary and file types were converted to '.webp'. -->
 
 ## Validation Testing
 

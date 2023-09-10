@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-/* General styles */
+/* General Styles */
 body {
     display: flex;
     flex-direction: column;
@@ -127,7 +127,6 @@ main {
 
 #about-us-image {
     width: 100vw;
-    height: 75vw;
 }
 
 #about-us-text {
@@ -167,7 +166,6 @@ main {
 
 #contact-us-image {
     width: 100vw;
-    height: 75vw;
 }
 
 #contact-us-text {
@@ -236,7 +234,6 @@ footer {
 
     #about-us-image {
         width: 50vw;
-        height: 40vw;
     }
 
     #about-us-text {
@@ -303,8 +300,6 @@ footer {
 
     #about-us-image {
         width: 60vw;
-        height: 500px;
-        border-radius: 0;
         margin: 0;
     }
 
@@ -353,8 +348,8 @@ footer {
     }
 
     #contact-us-image {
-        margin: 0 35px;
-        height: 50vw;
+        margin: 0 auto;
+        width: 75vw;
     }
 
     .input-box:hover {
@@ -402,7 +397,7 @@ footer {
     }
 
     #contact-us-image {
-        height: 30vw;
+        width: 45vw;
     }
 
     #personalised-solutions,
