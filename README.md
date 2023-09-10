@@ -52,7 +52,7 @@ Nexus Tech is a single page website for a business that builds custom computers 
 - All areas of the site are readable on all browsers and devices that have been tested.
 - The enquiry form has been tested, all required fields will not allow the used to submit content if left blank and the email field must contain an email addresss for the form to be sent.
 
-## Bugs
+### Bugs
 
 - The navigation bar covered part of the What We Do and Contact Us sections when their links were clicked.
 - This issue was resolved by using a scroll-margin selector with a size equal to the height of the navigation menu.
@@ -63,10 +63,36 @@ Nexus Tech is a single page website for a business that builds custom computers 
 <!-- - Poor performance rating was returned when running the website through lighthouse in devtools.
 - Images were all reduced in size to ensure that they were no bigger than necessary and file types were converted to '.webp'. -->
 
-## Validation Testing
+### Validation Testing
 
 - HTML
   - All HTML code has been run through the official HTML validator at <https://validator.w3.org/> and no errors were returned. Notes were displayed due to 'trailing slash on void elements' due to the Codeanywhere IDE adding a forward slash to specific elements upon saving, such as "br /". After reviewing the br element and other subsequent elements on <https://developer.mozilla.org/en-US/docs/Web/HTML> this is shown as correct syntax.
 - CSS
   - All CSS code has been run through the official CSS validator at <https://jigsaw.w3.org/css-validator/> and no errors were returned.
+- Accessibility
+
+
+
+### Unfixed Bugs
+
+No apparent bugs remain unfixed.
+
+## Deployment
+
+- The webbsite has been deployed using GitHub pages. To do this the following procedure has been used:
+  - Go to the settings tab in the GitHub repositary.
+  - Navigated to 'Pages' from the menu, under 'Code and automation'.
+  - Ensure that Master Branch is selected from the 'Deploy from a branch' dropdown menu underneath 'Source'.
+  - The link to the webpage was provided upon selecting a source.
+
+A link can be followed to the live website here: [Nexus Tech](https://eddy-bryan.github.io/nexus-tech/)
+
+## Credits
+
+### Content
+
+- 
+
+### Media
+
 - 
