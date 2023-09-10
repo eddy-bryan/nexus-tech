@@ -366,6 +366,7 @@ footer {
     .attributes {
         min-width: 350px;
         width: 25vw;
+        max-height: 350px;
     }
 
     .attributes-image {
