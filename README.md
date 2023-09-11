@@ -60,8 +60,6 @@ Nexus Tech is a single page website for a business that builds custom computers 
 - This problem was rectified by ensuring that the width of all child elements did not exceed the width of their parent.
 - What We Do section became jumbled at display widths of 1379px - 1414px and 2211px and above.
 - Giving the attribute description paragraphs within the What We Do section a max-height fixed this issue.
-<!-- - Poor performance rating was returned when running the website through lighthouse in devtools.
-- Images were all reduced in size to ensure that they were no bigger than necessary and file types were converted to '.webp'. -->
 
 ### Validation Testing
 
@@ -70,8 +68,8 @@ Nexus Tech is a single page website for a business that builds custom computers 
 - CSS
   - All CSS code has been run through the official CSS validator at <https://jigsaw.w3.org/css-validator/> and no errors were returned.
 - Accessibility
-
-
+  - The website has been run through lighthouse within devtools confirming that all colours and fonts selected are both legible and accessible.
+![Screenshot of lighthouse results.](assets/images/lighthouse.PNG)
 
 ### Unfixed Bugs
 
@@ -91,8 +89,10 @@ A link can be followed to the live website here: [Nexus Tech](https://eddy-bryan
 
 ### Content
 
-- 
+- Icons used in the 'What We Do' section and the footer have been taken from Font Awesome.
+- Code for the website footer has been tweaked and further modified from the Love Running project to create the website footer.
+- Code to ensure that the main content grows to fill all available screenspace withing the header and the footer has been taken from the Love Running project.
 
 ### Media
 
-- 
+- All images displayed on the website have been taken from Pexels.
