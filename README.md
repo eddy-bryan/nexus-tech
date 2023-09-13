@@ -69,6 +69,7 @@ Nexus Tech is a single page website for a business that builds custom computers 
   - All CSS code has been run through the official CSS validator at <https://jigsaw.w3.org/css-validator/> and no errors were returned.
 - Accessibility
   - The website has been run through lighthouse within devtools confirming that all colours and fonts selected are both legible and accessible.
+
 ![Screenshot of lighthouse results.](assets/images/lighthouse.PNG)
 
 ### Unfixed Bugs
